@@ -1,0 +1,35 @@
+{
+  "name": "node-red-contrib-sfera-labs-iono-pi-max",
+  "version": "1.0.0",
+  "description": "Node-RED nodes for Iono Pi Max - the industrial Raspberry Pi PLC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfera-labs/node-red-contrib-sfera-labs-iono-pi-max.git"
+  },
+  "dependencies": {
+      "node-red-contrib-sfera-labs-commons": "^1.0.0"
+  },
+  "keywords": [
+    "node-red",
+    "iono",
+    "ionopi",
+    "raspberry",
+    "pi",
+    "industrial",
+    "plc",
+    "sfera",
+    "labs",
+    "sferalabs"
+  ],
+  "author": "Giampiero Baggiani <giampiero@sferalabs.cc>",
+  "license": "LGPL-2.1-or-later",
+  "bugs": {
+    "url": "https://github.com/sfera-labs/node-red-contrib-sfera-labs-iono-pi-max/issues"
+  },
+  "homepage": "https://github.com/sfera-labs/node-red-contrib-sfera-labs-iono-pi-max#readme",
+  "node-red" : {
+    "nodes": {
+      "ionopimax": "ionopimax.js"
+    }
+  }
+}

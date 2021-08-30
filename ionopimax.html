@@ -1,0 +1,32 @@
+<script type="text/javascript">
+  $.getScript("resources/node-red-contrib-sfera-labs-commons/slcommons-client.js",
+    function() {
+      slDefineNode('ionopimax', 'Iono Pi Max', '#E6E0F8', 'sferalabs-iono-pi.png');
+    }
+  );
+</script>
+
+<script id="sl-commons-template" type="text/javascript" data-template-name="ionopimax">
+  $(function(){
+    $("#sl-commons-template").load("resources/node-red-contrib-sfera-labs-commons/slcommons-client-template.html");
+  });
+</script>
+
+<script id="sl-commons-help" type="text/javascript" data-help-name="ionopimax">
+  $(function() {
+    var product = "Iono Pi Max"
+    var githubK = "https://github.com/sfera-labs/iono-pi-max-kernel-module"
+    var githubNR = "https://github.com/sfera-labs/node-red-contrib-sfera-labs-iono-pi-max"
+
+    var help = $("#sl-commons-help");
+    help.load("resources/node-red-contrib-sfera-labs-commons/slcommons-client-help.html",
+      function() {
+        var helpHtml = help.html()
+            .replaceAll("[[sl-commons-help-product]]", product)
+            .replaceAll("[[sl-commons-help-github-kernel]]", githubK)
+            .replaceAll("[[sl-commons-help-github-nodered]]", githubNR);
+        help.html(helpHtml);
+      }
+    );
+  });
+</script>
