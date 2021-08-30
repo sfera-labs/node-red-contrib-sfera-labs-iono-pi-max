@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-sfera-labs-iono-pi-max",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Node-RED nodes for Iono Pi Max - the industrial Raspberry Pi PLC",
   "repository": {
     "type": "git",
