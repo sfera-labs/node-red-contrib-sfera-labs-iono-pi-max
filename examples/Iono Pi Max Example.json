@@ -1,0 +1,12 @@
+[
+    {
+        "id": "8bce2442c951bbde",
+        "type": "comment",
+        "z": "7af51950b76c72ec",
+        "name": "Close O1 for 1sec every 5 times DI1 goes high",
+        "info": "",
+        "x": 550,
+        "y": 840,
+        "wires": []
+    }
+]
